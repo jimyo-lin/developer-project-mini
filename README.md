@@ -1,10 +1,10 @@
-# Mini Precision Cooker BLE Interface
+# Anova Precision® Cooker Mini Precision Cooker BLE Interface
 
-A command-line utility for controlling the Mini Precision Cooker via Bluetooth Low Energy (BLE). This tool provides both one-off commands and an interactive REPL mode for continuous device control.
+A command-line utility for controlling the Anova Precision® Cooker Mini sous vide cooker via Bluetooth Low Energy (BLE). This tool provides both one-off commands and an interactive REPL mode for continuous device control.
 
 ## Features
 
-- **BLE Scanning & Connection:** Auto-detects compatible Mini Precision Cookers by service UUID
+- **BLE Scanning & Connection:** Auto-detects compatible Anova Precision® Cooker Mini devices by service UUID
 - **Dual Control Modes:** Use subcommands for quick operations or interactive REPL for continuous control
 - **Complete Device Management:** Read system information, set temperatures, change units, start/stop cooking
 - **Automatic Clock Synchronization:** Sets device clock to current UTC time on connection
@@ -88,7 +88,7 @@ python mini_precision_cooker.py stop-cook
 python mini_precision_cooker.py get-state
 ```
 
-> **Note:** When prompted during connection, please accept pairing on your host computer. Otherwise, the Mini Precision Cooker will disconnect.
+> **Note:** When prompted during connection, please accept pairing on your host computer. Otherwise, the Anova Precision® Cooker Mini will disconnect.
 
 ## BLE Communication Protocol
 

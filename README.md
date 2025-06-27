@@ -17,6 +17,37 @@ A command-line utility for controlling the Anova Precision® Cooker Mini sous vi
 
 ## Installation
 
+### Python Virtual Environment Setup (Recommended)
+
+It's recommended to use a Python virtual environment to isolate dependencies:
+
+1. **Create Virtual Environment:**
+   ```bash
+   python -m venv venv
+   ```
+
+2. **Activate Virtual Environment:**
+   - **Windows:**
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install bleak
+   ```
+
+4. **Deactivate Virtual Environment (when done):**
+   ```bash
+   deactivate
+   ```
+
+### Standard Installation
+
 1. **Install Python Dependencies:**
    ```bash
    pip install bleak

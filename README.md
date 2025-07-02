@@ -1,6 +1,10 @@
+<img src="https://developer.anovaculinary.com/img/logo.svg" alt="Anova Developers" width="350"/>
+
 # Anova Precision® Cooker Mini Precision Cooker BLE Interface
 
 A command-line utility for controlling the Anova Precision® Cooker Mini sous vide cooker via Bluetooth Low Energy (BLE). This tool provides both one-off commands and an interactive REPL mode for continuous device control.
+
+<img src="https://developer.anovaculinary.com/img/Anova_Precision_Cooker_Mini.jpg" alt="Anova Precision® Cooker Mini" width="271"/>
 
 ## Features
 
